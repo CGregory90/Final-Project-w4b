@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This is the start of navigation  */
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(17, 117, 150);
+    position: sticky;
+    top: 0;
+}
+.logo{
+    float: left;
+    margin: 5px 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    color: #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 20px 20px;
+}
+nav ul li:hover{
+    color: darkmagenta;
+}
+nav ul li:active{
+    color:cornflowerblue;
+}
+/* This is the start of navigation  */
+/* This is the start of hero section  */
+main{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(17, 117, 150);
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/charity-give-back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-text{
+    color: #fff;
+    text-align: right;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-60%, -60%);
+    white-space: nowrap;
+}
+.givingback{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+.Dontwait{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
+/* This is the end of hero section  */
+/* This is the start of a row  */
+.row{
+    margin: 20px 20px;
+}
+.column{
+    width: 33.33%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    padding:35px 10px;
+    /* border:1px solid #000 ; */
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* This is the end of a row  */
+/* This is the start of an info section  */  
+.infoBox{
+    width: 50%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    margin: 350px 0px;
+    /* border: 1px solid #000; */
+}
+.infoTextbox{
+    padding: 70px 40px;
+    line-height: 200%;
+}
+.info-section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* This is the end of an info section  */  
+/* This is the start of footer  */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(17, 117, 150);
+}
+.footerBox{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 0px 20px ;
+    text-align: center;
+    /* border: 1px solid #000; */
+}
+.footerBox ul{
+    list-style-type: none;
+    margin-top: 60px;
+}
+.footerBox a{
+    text-decoration: none;
+}
+.footerBox ul li{
+    color: #000;
+    
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 20px 20px;
+}
+.footerBox ul li:hover{
+    color: darkmagenta;
+}
+.footerBox ul li:active{
+    color:cornflowerblue;
+}
+.footerBox p{
+    margin-top: 100px;
+}
+.socialMedia{
+    margin-top: 90px;
+}
+.socialMedia i{
+    margin: 0px 10px;
+}
+.socialMedia i{
+    color: #000;
+}
+.socialMedia i:hover{
+    color: darkmagenta;
+}
+.socialMedia i:active{
+    color:cornflowerblue;
+}
+/* This is the end of footer  */
