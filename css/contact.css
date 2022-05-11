@@ -40,6 +40,16 @@ nav ul li:active{
     position: relative;
     min-height: 100vh;
 }
+.ContactForm{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+.googleMap{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
 
 
 
