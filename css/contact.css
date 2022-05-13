@@ -40,7 +40,7 @@ nav ul li:active{
 .container{
     position: relative;
     min-height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/charity-give-back.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('./img/charity-give-back.jpg');
     background-size: cover;
 }
 .ContactForm{
