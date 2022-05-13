@@ -41,7 +41,7 @@ nav ul li:active{
 .PageContainer{
     position: relative;
     min-height: 90vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('./img/charity-give-back.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/img/holdinghandslogo2.png);
     background-size: cover;
   }
 .aboutheader{
